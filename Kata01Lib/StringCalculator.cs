@@ -26,14 +26,6 @@ namespace Kata01Lib
                 return numberIntegers.Sum();
             }
 
-            //if (numbers.Contains(","))
-            //{
-            //    var numberParts = numbers.Split(",");
-            //    var numberIntegers = numberParts.Select(n => int.Parse(n));
-
-            //    return numberIntegers.Sum();
-            //}
-
             return int.Parse(numbers);
         }
     }
